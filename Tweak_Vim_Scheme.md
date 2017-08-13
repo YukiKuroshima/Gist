@@ -21,7 +21,9 @@ Or sometimes, I found a scheme but it did not match with my Terminal background 
 
 # Reveal your un-satisfaction
 Open your vim and type ```:hi```
-You can see a list of syntax highliting. All you have to do is find the part you want to change and keep the name such as _Visual_.We will use them later        
+You can see a list of syntax highliting. All you have to do is find the part you want to change and keep the name such as _Visual_.We will use them later.
+If you do ```:hi``` in vim, you shoudl get something like this.
+![:hi command](.img/Tweak_Vim_Scheme.png)
 
 ## Change the color
 Now that you know what you change, let's tweak the vim scheme
@@ -44,7 +46,7 @@ highlight VertSplit ctermbg=none ctermfg=blue
 *  ```ctermbf``` : Stands for color terminal background
 * If you want to reset the color use ```none```. This is very useful when you are trying to match your vim background color and termianl color
 
-Just add below to your ```.vimrc``` and you can match your vim color to your terminal color
+* Just add below to your ```.vimrc``` and you can match your vim color to your terminal color
 
 ```vim
 " Reset the background color in Normal mode so vim uses Terminal.app's background color"
