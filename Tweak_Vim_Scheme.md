@@ -23,7 +23,7 @@ Or sometimes, I found a scheme but it did not match with my Terminal background 
 Open your vim and type ```:hi```
 You can see a list of syntax highliting. All you have to do is find the part you want to change and keep the name such as _Visual_.We will use them later.
 If you do ```:hi``` in vim, you shoudl get something like this.
-![:hi command](.img/Tweak_Vim_Scheme.png)
+![:hi command](./img/Tweak_Vim_Scheme.png)
 
 ## Change the color
 Now that you know what you change, let's tweak the vim scheme
